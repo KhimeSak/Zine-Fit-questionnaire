@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zine Fit - Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue chez Zine Fit</h1>
+        <p>Aidez-nous à mieux répondre à vos besoins sportifs en répondant à ce questionnaire rapide.</p>
+    </header>
+
+    <form id="questionnaire">
+        <!-- Question 1 -->
+        <div class="question">
+            <label for="sport">1. Quel type de sport pratiquez-vous principalement ?</label><br>
+            <input type="checkbox" name="sport" value="endurance"> Sports d'endurance<br>
+            <input type="checkbox" name="sport" value="force"> Sports de force<br>
+            <input type="checkbox" name="sport" value="collectif"> Sports collectifs<br>
+            <input type="checkbox" name="sport" value="loisirs"> Sports de loisirs<br>
+            <input type="text" name="sport_other" placeholder="Autre (précisez)">
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <label for="frequency">2. À quelle fréquence vous entraînez-vous chaque semaine ?</label><br>
+            <input type="radio" name="frequency" value="moins1"> Moins d'une fois<br>
+            <input type="radio" name="frequency" value="1-2"> 1 à 2 fois<br>
+            <input type="radio" name="frequency" value="3-4"> 3 à 4 fois<br>
+            <input type="radio" name="frequency" value="5plus"> 5 fois ou plus<br>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <label for="goals">3. Quels sont vos principaux objectifs sportifs ?</label><br>
+            <input type="checkbox" name="goals" value="performance"> Améliorer mes performances<br>
+            <input type="checkbox" name="goals" value="masse"> Prendre de la masse musculaire<br>
+            <input type="checkbox" name="goals" value="poids"> Perdre du poids<br>
+            <input type="checkbox" name="goals" value="condition"> Maintenir ma condition physique<br>
+            <input type="text" name="goals_other" placeholder="Autre (précisez)">
+        </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <label for="current-products">4. Utilisez-vous actuellement des produits énergétiques ou des encas pendant vos entraînements ?</label><br>
+                <input type="radio" name="current-products" value="oui"> Oui<br>
+                <input type="radio" name="current-products" value="non"> Non<br>
+            </div>
+    
+            <!-- Question 5 -->
+            <div class="question">
+                <label for="favorite-snacks">5. Si vous utilisez des encas pendant l'effort, lesquels préférez-vous ?</label><br>
+                <input type="checkbox" name="favorite-snacks" value="barres"> Barres énergétiques<br>
+                <input type="checkbox" name="favorite-snacks" value="gels"> Gels énergétiques<br>
+                <input type="checkbox" name="favorite-snacks" value="bonbons"> Bonbons énergétiques<br>
+                <input type="checkbox" name="favorite-snacks" value="autres"> Autres (précisez) : 
+                <input type="text" name="snack_other" placeholder="Autre encas">
+            </div>
+    
+            <!-- Question 6 -->
+            <div class="question">
+                <label for="snack-time">6. Préférez-vous consommer vos encas avant, pendant ou après l'entraînement ?</label><br>
+                <input type="radio" name="snack-time" value="avant"> Avant l'entraînement<br>
+                <input type="radio" name="snack-time" value="pendant"> Pendant l'entraînement<br>
+                <input type="radio" name="snack-time" value="après"> Après l'entraînement<br>
+            </div>
+    
+            <!-- Question 7 -->
+            <div class="question">
+                <label for="texture">7. Quelle texture préférez-vous pour un bonbon énergétique ?</label><br>
+                <input type="checkbox" name="texture" value="gélifiée"> Gélifiée (gommes)<br>
+                <input type="checkbox" name="texture" value="croquante"> Croquante<br>
+                <input type="checkbox" name="texture" value="liquide"> Liquide<br>
+            </div>
+    
+            <!-- Question 8 -->
+            <div class="question">
+                <label for="criteria">8. Quels sont les critères les plus importants pour vous dans un produit énergétique ?</label><br>
+                <input type="checkbox" name="criteria" value="efficacite"> Efficacité<br>
+                <input type="checkbox" name="criteria" value="gout"> Goût<br>
+                <input type="checkbox" name="criteria" value="praticite"> Praticité<br>
+                <input type="checkbox" name="criteria" value="ingredients"> Ingrédients naturels<br>
+            </div>
+    
+            <!-- Question 9 -->
+            <div class="question">
+                <label for="diet">9. Avez-vous des préférences ou des restrictions alimentaires ?</label><br>
+                <input type="checkbox" name="diet" value="vegetalien"> Végétalien<br>
+                <input type="checkbox" name="diet" value="sans-gluten"> Sans gluten<br>
+                <input type="checkbox" name="diet" value="sans-lactose"> Sans lactose<br>
+                <input type="text" name="diet_other" placeholder="Autre (précisez)">
+            </div>
+    
+            <!-- Question 10 -->
+            <div class="question">
+                <label for="budget">10. Combien seriez-vous prêt à investir mensuellement dans des produits énergétiques pour vos entraînements ?</label><br>
+                <input type="radio" name="budget" value="moins10"> Moins de 10 €<br>
+                <input type="radio" name="budget" value="10-20"> 10 à 20 €<br>
+                <input type="radio" name="budget" value="20-30"> 20 à 30 €<br>
+                <input type="radio" name="budget" value="30plus"> Plus de 30 €<br>
+            </div>
+    
+            <!-- Bouton Soumettre -->
+            <div class="submit">
+                <button type="submit">Soumettre</button>
+            </div>
+        </form>
+    
+        <footer>
+            <p>Merci pour vos réponses ! Nous les utiliserons pour créer des produits qui répondent à vos attentes.</p>
+        </footer>
+    </body>
+    </html>
+    
+    
